@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akhil.S | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sixtyfour:SCAN@36&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo" style="text-decoration: dotted underline;">Akhil</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="home-content">
+            <h1>Akhil.S</h1>
+            <p>Aspiring WebDeveloper</p>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/Akhil Sale" target="_blank">LinkedIn</a>
+                <a href="https://github.com/sunnyakhivk18" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a recent graduate in Electronics and Communication Engineering from MLR Institute of Technology, with a strong interest in Software. Throughout my academic journey, I have gained knowledge in JAVA, web designing technologies such as HTML, CSS, JavaScript, and SQL. My passion lies in creating dynamic and user-friendly websites and applications that offer seamless experiences. One of my notable projects includes developing a portfolio website to showcase my work and skills. I am excited to continue learning and growing as a web developer, aiming to contribute to innovative projects in web design, development, and IT solutions.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill" data-skill="Python">Python</div>
+            <div class="skill" data-skill="Java">Java</div>
+            <div class="skill" data-skill="HTML">HTML</div>
+            <div class="skill" data-skill="CSS">CSS</div>
+            <div class="skill" data-skill="JavaScript">JavaScript</div>
+            <div class="skill" data-skill="MySQL">MySQL</div>
+            <div class="skill" data-skill="Git & GitHub">Git & GitHub</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project" onclick="toggleContent('project1')">
+            <h3>JAVA-Based Rock-Paper-Scissors Game</h3>
+            <p id="project1" class="project-content">I developed a Rock Paper Scissors game in Java, where users can play against the computer in a console-based environment. The game features simple user input handling, random number generation for the computer's moves, and logic to determine the winner based on traditional rules. It includes input validation to ensure smooth gameplay and allows users to replay multiple rounds in the same session. This project helped me strengthen my understanding of Java, particularly in the areas of conditional statements, loops, and user interaction.</p>
+        </div>
+        <div class="project" onclick="toggleContent('project2')">
+            <h3>Medical Robot</h3>
+            <p id="project2" class="project-content">In my B.Tech, I developed a major project focused on creating a medical robot designed to assist healthcare environments. The robot was equipped with the capability to serve tablets to patients and monitor their activities through a network of sensors, significantly reducing the need for direct social interactions between patients and healthcare staff. Utilizing Wi-Fi for real-time data transmission, the system aimed to improve patient care efficiency while maintaining safety protocols, especially in environments requiring minimal physical contact.</p>
+        </div>
+        <div class="project" onclick="toggleContent('project3')">
+            <h3>Web Designing</h3>
+            <p id="project3" class="project-content">I have also developed several web pages, including login pages and resumes. These projects helped me gain practical experience in front-end web development, working with HTML, CSS, and JavaScript to create responsive and user-friendly interfaces. Through these web pages, I focused on designing clean layouts, validating user inputs, and enhancing the user experience across different platforms and devices.</p>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="certifications-container">
+            <img src="oasis.jpeg" alt="Certification 1" class="certificate">
+            <img src="nptel.jpeg" alt="Certification 2" class="certificate">
+            <img src="python.jpg" alt="Certification 3" class="certificate">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" style="font-family: Georgia, 'Times New Roman', Times, serif;">Send</button>
+        </form>
+    </section>
+
+    <section id="resume">
+        <h2>Download Resume</h2>
+        <p>Click the button below to download my resume:</p>
+        <a href="AKHIL resume F.pdf" download="Akhil_Resume.pdf" class="resume-download-btn">Download Resume</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Akhil S. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
